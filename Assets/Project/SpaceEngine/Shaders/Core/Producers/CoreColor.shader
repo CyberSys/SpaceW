@@ -14,7 +14,7 @@
 		#include "../../TCSun.cginc"
 		#include "../../TCTerra.cginc"
 
-		#define CORE_PORDUCER_ADDITIONAL_UV
+		#define CORE_PRODUCER_ADDITIONAL_UV
 		//#define BORDER 2.0
 
 		#include "../../Core.cginc"
@@ -172,7 +172,7 @@
 			#pragma vertex vert
 			#pragma fragment frag
 
-			#pragma multi_compile TC_NONE TC_ASTEROID TC_PLANET TC_SELENA TC_TERRA  TC_GASGIANT TC_TEST
+			#pragma multi_compile TC_NONE TC_ASTEROID TC_PLANET TC_SELENA TC_TERRA TC_GASGIANT TC_TEST
 			ENDCG
 		}
 	}
